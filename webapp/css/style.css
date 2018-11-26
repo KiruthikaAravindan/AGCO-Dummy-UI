@@ -1,0 +1,7 @@
+/*.noOverflowClass .sapMPageEnableScrolling, .noOverflowClass .sapMPage>section.sapMPageEnableScrolling{
+	overflow: unset !important;
+}
+
+.noOverflowClass{
+	border: none;
+}*/

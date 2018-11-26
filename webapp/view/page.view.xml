@@ -1,0 +1,17 @@
+<mvc:View controllerName="com.agcoagcoworkbox.controller.page" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" showHeader="false" class="noOverflowClass">
+				<content>
+					<html:style>
+						.noOverflowClass .sapMPageEnableScrolling, .noOverflowClass .sapMPage>section.sapMPageEnableScrolling{ overflow: unset !important; }
+						.noOverflowClass{ border: none; }
+					</html:style>
+					<core:HTML
+						content="&lt;div id=&quot;contentFrameDiv&quot;&gt; &lt;iframe id=&quot;contentFrameId&quot; width=&quot;100%&quot; height=&quot;100%&quot; class=&quot;noOverflowClass&quot; seamless&gt;&lt;/iframe&gt; &lt;/div&gt;"></core:HTML>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
